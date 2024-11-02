@@ -10,6 +10,7 @@ Hi, this is the source code of my web app dedicated to weather should you like i
 - <a href="https://tailwindcss.com/docs/guides/create-react-app"> Style </a>
 - <a href="https://reactrouter.com/en/main"> Route </a>
 - <a href="https://redux-toolkit.js.org/"> Manager state </a>
+- <a href="https://www.npmjs.com/package/dotenv#-install"> environment variables </a>
 ### Description
 Hi all, the application is entirely developed in React with several attached libraries and APIs. (Links are present “Development tools”)
 The workflow is as shown in the picture:
