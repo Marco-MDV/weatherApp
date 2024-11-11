@@ -15,7 +15,7 @@ Hi, this is the source code of my web app dedicated to weather should you like i
 Hi all, the application is entirely developed in React with several attached libraries and APIs. (Links are present “Development tools”)
 The workflow is as shown in the picture:
 
-<img src=""/>
+<img src="./FlowChartWeatherApp.png"/>
 
 ### App instruction
 how to function the app?
@@ -24,3 +24,4 @@ it's easy because you insert name of location (ex. name of a city) after send re
 ### Extra info
 - the input are sanitized and accept only string.
 - the endpoint accept only max 400 call at day.
+- the files that not are presents in a folder but are present as file is because is present only this type of file 
