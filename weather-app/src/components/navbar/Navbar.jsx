@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { triggerSearch } from '../../redux/setButtonTrigger'
+import { triggerSearch } from '../../redux/sliceSetButtonTrigger'
 import Title from '../Title';
 import Search from '../Search';
 
