@@ -1,10 +1,11 @@
 import React from 'react'
-
+import IconsBg from '../../components/iconsBg/IconsBg'
+import WelComeText from '../../components/welComeText/WelComeText'
 export default function Home() {
     return (
-        <div>
-            <h1>Welcome to Weather App!</h1>
-            <p>This is the home page.</p>
-        </div>
+        <main className='min-h-screen-minus-sm&md lg:min-h-screen-minus-lg&xl relative flex justify-center items-center p-2'>
+            <WelComeText/>
+            <IconsBg/>
+        </main>
     )
 }

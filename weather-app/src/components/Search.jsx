@@ -9,7 +9,7 @@ export default function Search({stateButtonTrigger, changeStateButtonTrigger}) {
     
     return (
         <div className='flex gap-2 items-center'>
-            <input type="search" name="city" id="cityId" className='rounded-md focus:outline-none px-2 py-1' placeholder='Search your city...'  onChange={handleClickCityName}/>
+            <input type="search" name="city" id="cityId" className='rounded-md border-2 focus:border-sky-600 focus:outline-none px-2 py-1' placeholder='Search your city...'  onChange={handleClickCityName}/>
             <WeatherButton />
         </div>
     )

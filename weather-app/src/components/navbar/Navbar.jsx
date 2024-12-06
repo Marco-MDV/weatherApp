@@ -10,7 +10,7 @@ export default function Navbar() {
     const changeStateButtonTrigger = () => { dispatch(triggerSearch()) };
 
     return (
-        <nav className=' bg-sky-500 flex gap-5 justify-center items-center flex-col flex-col lg:flex-row lg:justify-evenly p-5'>
+        <nav className=' flex gap-5 justify-center items-center flex-col flex-col lg:flex-row lg:justify-evenly p-5 text-sky-600	'>
             <Title/>
             <Search stateButtonTrigger={stateButtonTrigger} changeStateButtonTrigger={changeStateButtonTrigger}/>
         </nav>

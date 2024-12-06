@@ -9,7 +9,7 @@ export default function WeatherButton() {
     const changeStateButtonTrigger = () => { dispatch(triggerSearch()) };
     const requestData = () =>{navigate('/WeatherForecast'); changeStateButtonTrigger()}
     return (
-        <button className='h-8 w-8 bg-white rounded-md p-1 flex justify-center items-center hover:bg-slate-300 active:outline active:outline-2 active:outline-offset-2 active:outline-slate-100' onClick={requestData}>
+        <button className='h-8 w-8 bg-white rounded-md p-1 flex justify-center items-center hover:bg-slate-300 outline outline-2 outline-offset-2 outline-slate-100 active:outline-0' onClick={requestData}>
             {!stateButtonTrigger ?
                 (
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-4">
